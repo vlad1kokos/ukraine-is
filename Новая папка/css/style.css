@@ -1,0 +1,199 @@
+.section-title {
+    text-align: center;
+}
+
+.section-title h2 {
+    padding-bottom: 20px;
+    font-size: 34px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.section-title p {
+    padding-bottom: 10px;
+    font-size: 20px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.section-title hr {
+    border: 1px solid #555454;
+}
+#main{
+    margin-top: 40px;
+}
+
+#header {
+    padding-top: 150px;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+#about {
+    padding: 100px 0;
+}
+
+#about .about-item {
+    padding: 15px 0;
+}
+
+.bg1 {
+    height: 400px;
+    background-image: url(../img/ukraine-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+/* ======borders======= */
+#borders {
+    padding: 100px 0;
+}
+
+#borders .borders-item {
+    padding: 15px 0;
+}
+
+#borders .borders-item ul li {
+    padding-bottom: 15px;
+    list-style-type: circle;
+}
+
+/* ======jobs=== */
+#jobs {
+    padding: 50px 0;
+}
+
+#jobs .jobs-item {
+    padding: 15px 0;
+}
+
+#jobs .jobs-item ul li {
+    padding-bottom: 15px;
+    list-style-type: circle;
+}
+
+#jobs .jobs-card {
+    border-radius: 10px 50px / 60px;
+    background-color: #f3ecec;
+    padding: 25px 0;
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* =====anons======= */
+#anons {
+    padding: 50px 0;
+}
+
+.logo {
+    width: 100px;
+}
+
+/* ===footer=== */
+#footer {
+    padding: 100px 0;
+    background-color: #929090;
+    color: #fff;
+}
+
+#footer ul {
+    margin: 0;
+    padding: 0;
+}
+
+#footer ul li {
+    list-style-type: none;
+    padding-bottom: 15px;
+}
+
+#footer ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#footer ul li a:hover {
+    opacity: .8;
+}
+
+#footer .footer-newslatter input[type="email"] {
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 4px 0 0 4px;
+    width: calc(100% - 110px);
+    font-size: 16px;
+}
+
+#footer .footer-newslatter input[type="submit"] {
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 0 4px 4px 0;
+    margin: -5px;
+    background-color: #ffc107;
+    font-size: 16px;
+}
+#billng{
+    padding: 50px 0;
+}
+#billng .billing-card{
+    padding-bottom: 16px;
+}
+#billng .billing-card i{
+ font-size: 29px;
+ padding-right: 5px;
+}
+#portfolio{
+    padding: 100px 0;
+}
+
+.portfolio .portfolio-item {
+    cursor: pointer;
+    position: relative;
+    display: block;
+    max-width: 25rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+  }
+  .portfolio .portfolio-item .portfolio-item-caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.2s ease-in-out;
+    opacity: 0;
+    background-color: #ffc107de;
+  }
+  .portfolio .portfolio-item .portfolio-item-caption:hover {
+    opacity: 1;
+  }
+  .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
+    font-size: 1.5rem;
+  }
+  
+  .portfolio-modal .btn-close {
+    color: #1abc9c;
+    font-size: 2rem;
+    padding: 1rem;
+  }
+  .portfolio-modal .portfolio-modal-title {
+    font-size: 2.25rem;
+    line-height: 2rem;
+  }
+  @media (min-width: 992px) {
+    .portfolio-modal .portfolio-modal-title {
+      font-size: 3rem;
+      line-height: 2.5rem;
+    }
+  }
